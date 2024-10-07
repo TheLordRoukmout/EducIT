@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <img class="logo_educIt" src="medias/Logo_complet.png"></img>
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#">
+			<h1 class="title_create_account">Créer un compte</h1>
+			<div class="type_account-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>Sélectionner le type de compte</span>
+			<input type="text" placeholder="Noms" />
+            <input type="text" placeholder="Prénoms" />
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Mot de passe" />
+			<button>S'inscrire</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="#">
+			<h1>Se connecter</h1>
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Mot de passe" />
+			<a href="#">Mot de passe oublié ?</a>
+			<button>Se connecter</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Bon retour !</h1>
+				<p>Tu as déja crée un compte ? alors fonce et connecte toi.</p>
+				<button class="ghost" id="signIn">Se connecter</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Hello les amis !</h1>
+				<p>Entrez dans le monde incroyable de EducIT et apréciez donner court mais aussi y participer !</p>
+				<button class="ghost" id="signUp">S'inscire</button>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
